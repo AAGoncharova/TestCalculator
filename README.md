@@ -18,3 +18,5 @@ java Main inputFile.txt -
 ```
 
 In _"db"_ io mode the input data is taken from first row of _input_data_ table from _postgres_ database. The result is written to _output_data_ table.
+
+The _sql.txt_ file which is located in _/src/main/resources/_ contains sql scripts to create corresponding database and tables.
