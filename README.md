@@ -17,6 +17,13 @@ Example program call that reads input data from file _inputFile.txt_ and writes 
 java Main inputFile.txt -
 ```
 
-In _"db"_ io mode the input data is taken from first row of _input_data_ table from _postgres_ database. The result is written to _output_data_ table.
+In _"db"_ io mode the input data is taken from first row of _input_data_ table from _calculator_ database. The result is written to _output_data_ table.
+
+Database connection properties:
+url: _jdbc:postgresql://localhost:5432/calculator_
+user: _postgres_
+password: _postgres_
+
+Connection properties can be changed in _DBManager.java_
 
 The _sql.txt_ file which is located in _/src/main/resources/_ contains sql scripts to create corresponding database and tables.
