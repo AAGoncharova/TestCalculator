@@ -14,7 +14,7 @@ public final class DBManager {
     private Connection connection;
 
     public DBManager() throws SQLException {
-        String url = "jdbc:postgresql://localhost:5432/postgres";
+        String url = "jdbc:postgresql://localhost:5432/calculator";
         Properties props = new Properties();
         props.setProperty("user", "postgres");
         props.setProperty("password", "postgres");
