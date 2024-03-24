@@ -23,9 +23,7 @@ In _"db"_ io mode the input data is taken from first row of _input_data_ table f
 **_Database connection properties:_**
 
 url: _jdbc:postgresql://localhost:5432/calculator_
-
 user: _postgres_
-
 password: _postgres_
 
 
