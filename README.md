@@ -1,9 +1,10 @@
 # TestCalculator 
 
-**_TestCalculator_** provides four arithmetic functions:- add n1 n2 ... - sums two or more numbers
-- _mul_ n1 n2 ... - multiplies two or more numbers
+**_TestCalculator_** provides four arithmetic functions:
+- _add n1 n2 ..._ - sums two or more numbers
+- _mul n1 n2 ..._ - multiplies two or more numbers
 - _mul-then-add n1 n2 n3_ - performers n1*n2+n3
-- _inc-then-add n1 n2_ ... - increments numbers then multiplies them
+- _inc-then-add n1 n2 ..._ - increments numbers then multiplies them
 
 Program calls with two parameters: input_mode and output_mode, where mode can be
 - '-' - io from/to console
