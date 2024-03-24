@@ -6,7 +6,7 @@
 - _mul-then-add n1 n2 n3_ - performers n1*n2+n3
 - _inc-then-add n1 n2 ..._ - increments numbers then multiplies them
 
-Program calls with two parameters: input_mode and output_mode, where mode can be
+Program runs with two parameters: **_input_mode_** and **_output_mode_**, where mode can be
 - '-' - io from/to console
 - 'db'- io from/to a database
 - 'file name' - io from/to a file
