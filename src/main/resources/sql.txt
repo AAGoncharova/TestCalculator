@@ -1,0 +1,3 @@
+create database computator;
+create table input_data (id serial primary key, function varchar(255), data text);
+create table output_data (id serial primary key, data text);
