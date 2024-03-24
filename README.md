@@ -6,13 +6,15 @@
 - _mul-then-add n1 n2 n3_ - performers n1*n2+n3
 - _inc-then-add n1 n2 ..._ - increments numbers then multiplies them
 
-Program runs with two parameters: **_input_mode_** and **_output_mode_**, where mode can be
-- '-' - io from/to console
-- 'db'- io from/to a database
-- 'file name' - io from/to a file
-java
+Program takes two arguments: **_input_mode_** and **_output_mode_**, where mode can be
+- _"-"_ - io from/to console
+- _"db"_- io from/to a database
+- _"file name"_ - io from/to a file
 
-Example program call that reads input data from file and writes output to console:
+Example program call that reads input data from file _inputFile.txt_ and writes result to console:
+
+```bash
 java Main inputFile.txt -
+```
 
-In 'db' io mode it reads data from postgres database input_data table from first row. Writes to output_data table.
+In _"db"_ io mode the input data is taken from first row of _input_data_ table from _postgres_ database. The result is written to _output_data_ table.
