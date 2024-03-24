@@ -1,4 +1,5 @@
-#TestCalculator 
+#H1 TestCalculator 
+
 TestCalculator provides four arithmetic functions:
 - add n1 n2 ... - sums two or more numbers
 - mul n1 n2 ... - multiplies two or more numbers
