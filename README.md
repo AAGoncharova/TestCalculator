@@ -19,10 +19,15 @@ java Main inputFile.txt -
 
 In _"db"_ io mode the input data is taken from first row of _input_data_ table from _calculator_ database. The result is written to _output_data_ table.
 
-Database connection properties:
+
+**_Database connection properties:_**
+
 url: _jdbc:postgresql://localhost:5432/calculator_
+
 user: _postgres_
+
 password: _postgres_
+
 
 Connection properties can be changed in _DBManager.java_
 
